@@ -21,7 +21,9 @@
         - [Redis 都有哪些数据类型以及适用场景？](./docs/high-concurrency/redis-data-types.md)
         - [Redis 的过期策略都有哪些？](./docs/high-concurrency/redis-expiration-policies-and-lru.md)
         - [如何保证 Redis 高并发、高可用？](./docs/high-concurrency/how-to-ensure-high-concurrency-and-high-availability-of-redis.md)
+        - [Redis 主从架构是怎样的？](./docs/high-concurrency/redis-master-slave.md)
         - [Redis 的持久化有哪几种方式？](./docs/high-concurrency/redis-persistence.md)
+        - [Redis 如何基于哨兵集群实现高可用？](./docs/high-concurrency/redis-sentinel.md)
         - [Redis 集群模式的工作原理能说一下么？](./docs/high-concurrency/redis-cluster.md)
         - [Redis 的雪崩、穿透和击穿，如何应对？](./docs/high-concurrency/redis-caching-avalanche-and-caching-penetration.md)
         - [如何保证缓存与数据库双写一致性？](./docs/high-concurrency/redis-consistence.md)
@@ -84,7 +86,7 @@
         - 如何设计一个高可用系统？
 
     - 限流
-        - [如何限流？说一下具体的实现？](/docs/high-concurrency/huifer-how-to-limit-current.md)
+        - [如何限流？说一下具体的实现？](./docs/high-concurrency/huifer-how-to-limit-current.md)
 
     - 熔断
         - 如何进行熔断？
@@ -102,15 +104,15 @@
         - [选择微服务部署策略](./docs/micro-services/choose-microservice-deployment-strategy.md)
 
     - Spring Cloud 微服务架构
-        - [什么是微服务？微服务之间是如何独立通讯的？](/docs/micro-services/huifer-what's-microservice-how-to-communicate.md)
+        - [什么是微服务？微服务之间是如何独立通讯的？](./docs/micro-services/huifer-what's-microservice-how-to-communicate.md)
         - Spring Cloud 和 Dubbo 有哪些区别？
         - Spring Boot 和 Spring Cloud，谈谈你对它们的理解？
         - 什么是服务熔断？什么是服务降级？
         - 微服务的优缺点分别是什么？说一下你在项目开发中碰到的坑？
-        - [你所知道的微服务技术栈都有哪些？](/docs/micro-services/huifer-micro-services-technology-stack.md)
-        - [微服务治理策略](/docs/micro-services/huifer-micro-service-governance.md)
+        - [你所知道的微服务技术栈都有哪些？](./docs/micro-services/huifer-micro-services-technology-stack.md)
+        - [微服务治理策略](./docs/micro-services/huifer-micro-service-governance.md)
         - Eureka 和 Zookeeper 都可以提供服务注册与发现的功能，它们有什么区别？
-        - [谈谈服务发现组件 Eureka 的主要调用过程？](/docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
+        - [谈谈服务发现组件 Eureka 的主要调用过程？](./docs/micro-services/how-eureka-enable-service-discovery-and-service-registration.md)
 
 * 海量数据处理
     - 10 道经典的海量数据处理面试题
